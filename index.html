@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #E6EFF6;
+        }
+
+        .container {
+            background-color: white;
+            margin: 10% 25% 0px 25%;
+            width: auto;
+            height: auto;
+            outline: none;
+            /* Center vertically and horizontally */
+            display: flex;
+
+        }
+
+        .header {
+            margin: 30px 30px;
+            font-family: 'Karla', sans-serif;
+            font-size: 16px;
+
+        }
+
+
+        .container-2 {
+
+
+            margin: 0px 25% 10% 25%;
+            width: auto;
+            height: auto;
+            outline: none;
+            /* Center vertically and horizontally */
+            display: flex;
+
+        }
+
+        .left-container {
+
+            font-family: arial;
+            font-size: 24px;
+            float: left;
+            width: 50%;
+            height: auto;
+            background-color: #2BB3B1;
+            color: white;
+
+        }
+
+        .left-container .header {
+            margin: 10%;
+        }
+
+        .right-container {
+            font-family: arial;
+            font-size: 24px;
+            float: right;
+            width: 50%;
+            height: auto;
+            background-color: #4ABEBD;
+            color: white;
+
+        }
+
+        .right-container .header {
+            margin: 10%;
+            margin-right: 24%;
+        }
+
+        button {
+            background-color: hsl(71, 73%, 54%);
+            /* Green */
+            border: none;
+            color: white;
+            width: 100%;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: #4ABEBD;
+            color: hsl(71, 73%, 54%);
+            font-weight: bold;
+        }
+
+
+
+        @media only screen and (max-width: 375px) {
+            .container {
+                margin: 5% 10% 0px 5%;
+            }
+
+            .container-2 {
+                margin: 0px 10% 10% 5%;
+                display: inline-grid;
+            }
+
+            .left-container {
+                width: 100%;
+            }
+
+            .right-container {
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 style="color: hsl(179, 62%, 43%);">Join our community</h3><br>
+            <h3 style="color: hsl(71, 73%, 54%);">30-day, hassle free money back gurantee</h3><br>
+            <p style="color: hsl(218, 22%, 67%);">Gain access to our library of tutorials along with expert code
+                reviews.<br>
+                Perfect for any developers who are serious about honing their skills.</p>
+            </header>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="left-container">
+            <div class="header">
+                <h3>Monthly Subscription</h3>
+                <br>
+                <p><span style="font-weight: 700; font-size: 30px;">$29 </span> per month<br>
+                    Full access for less than $1 per day</p><br>
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="header">
+                <h3>Why Us</h3><br>
+                <p>Tutorials by industry experts
+                    Peer & expert code review
+                    Coding exercises
+                    Access to our GitHub repos
+                    Community forum
+                    Flashcard desks
+                    New videos every week
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
